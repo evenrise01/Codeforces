@@ -16,7 +16,7 @@ int main(){
         }
        
        int64_t ans = 0;
-       for(int j =29; J>=0;j--)
+       for(int j =29; j>=0;j--)
        {
            int64_t cnt =0;
            for (int i =0; i< n; i++){
@@ -24,7 +24,7 @@ int main(){
                    cnt++;
                }
            }
-           ans+=cnt*(cnt-1)/2
+           ans+=cnt*(cnt-1)/2;
        }
     cout << ans << "\n";
     }
