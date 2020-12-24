@@ -14,9 +14,6 @@ int main(){
         s[i] = sum;
     }
 
-    for (i=0;i<n;i++){
-        cout << s[i] << " ";
-    }
 
     int Smith = s[0];
     sort(s,s+n,greater<int>());
